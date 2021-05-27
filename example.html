@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Registration form</title>
+
+</head>
+<body>
+
+<form>
+<h1>USER REGISTRATION FORM</h1>
+<p>
+<label>Enter your Name
+<input type="text" name="name" required>
+</label> 
+</p>
+
+<p>
+    <h3>Gender</h3>
+    <p><lable> <input type="radio" name="gender" required value="Male">Male</lable></p>
+   <p><lable> <input type="radio" name="gender" required value="Female">Female </lable></p>
+</p>
+
+<p>
+    <label>Enter your DOB
+    <input type="datetime-local" name="pickup_time" required>
+    </label>
+    </p>	
+    
+<p>
+<label>Enter city
+<select>
+<option value="" selected="selected">Select</option>
+<option value="bangalor" >bangalor</option>
+<option value="belgum" >belgum</option>
+<option value="mandya" >mandya</option>
+<option value="mysore" >mysore</option>
+<option value="mangalor" >mangalor</option>
+</select>
+</label> 
+
+</p>
+<h3>Enter your 6 sem sub</h3>
+<p><label class="choice"> <input type="checkbox" name="extras" value="web"> web technology and application </label></p>
+<p><label class="choice"> <input type="checkbox" name="extras" value="system software"> system software </label></p>
+<p><label class="choice"> <input type="checkbox" name="extras" value="computer"> computer graphics</label></p>
+<p><label class="choice"> <input type="checkbox" name="extras" value="scm"> supply chain management</label></p>
+
+<p>
+<lable>tell somthing about you
+<textarea name="comments" maxlength="1000"></textarea>
+</label>
+</p>
+<p>
+    <label for="myfile">Select a photo:</label>
+<input type="file" name="myfile">
+</p>
+
+<p><button>Submit</button></p>
+
+</form>
+
+</body>
+</html>
